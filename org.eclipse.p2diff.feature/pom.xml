@@ -9,8 +9,7 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <name>p2diff Plugin</name>
-  <artifactId>org.eclipse.equinox.p2.example.p2diff</artifactId>
-  <packaging>eclipse-plugin</packaging>
+  <artifactId>org.eclipse.p2diff.feature</artifactId>
+  <packaging>eclipse-feature</packaging>
 
 </project>

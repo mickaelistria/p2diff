@@ -7,7 +7,6 @@
     <groupId>org.eclipse.equinox.p2.example</groupId>
     <artifactId>parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <relativePath>../org.eclipse.equinox.p2.example.p2diff.releng/parent</relativePath>
   </parent>
 
   <name>p2Diff Test Build</name>
@@ -23,8 +22,6 @@
         <configuration>
           <useUIHarness>false</useUIHarness>
           <useUIThread>false</useUIThread>
-          <argLine>-Xms40m -Xmx512m</argLine>
-          <testSuite>org.eclipse.equinox.p2.example.p2diff.tests</testSuite>
           <testClass>org.eclipse.equinox.p2.example.p2diff.tests.AllTests</testClass>
         </configuration>
       </plugin>
